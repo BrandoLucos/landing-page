@@ -1,6 +1,5 @@
 
 html, body {
-    height:100%;
     padding: 0px;
     margin: 0px;
 }
@@ -8,7 +7,6 @@ html, body {
 #container {
     background: radial-gradient(#aeaeb0, #09542c);
     font-family: 'Abel', sans-serif;
-    height: 100%;
     width: 100%;
     padding: 0px;
     margin: 0px;
@@ -21,33 +19,52 @@ html, body {
     flex-direction: row;
 }
 
-#image {
-    width:150px;
-}
-
 h1 {
     display: flex;
     justify-content: center;
     font-size: 80px;
 }
 
-/*#projects {
-    padding-top: 150px;
+h2 {
     display: flex;
     justify-content: center;
-    align-items: 10px;
-    min-width: 25px;
-    min-height: 25px;
-    font-size: 40px;
+}
+
+p {
+    padding: 10px;
+    width: 75%;
+
+    text-align: justify;
+}
+
+/*#projects {
+    padding-top: 20px;
+    display: flex;
+    flex-direction:row-reverse;
+    font-size: 30px;
+    width:300px;
+    align-items: center;
 
 }*/
 
-#project1 {
-    padding: 5px;
+#project1  {
+    padding: 10px;
+    width: 95%;
+}
+
+#project2 {
+    padding: 10px;
+    width: 95%;
 }
 
 #project3 {
-    padding: 5px;
+    padding: 10px;
+    width: 95%;
+}
+
+#project4 {
+    padding: 10px;
+    width: 95%;
 }
 
 
@@ -66,7 +83,7 @@ h1 {
 #icon1, #icon2, #icon3 {
 
 
-
+    width:75px;
     padding: 10px;
 
 }
