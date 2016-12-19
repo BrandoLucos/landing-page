@@ -1,5 +1,5 @@
-
-html, body {
+html,
+body {
     padding: 0px;
     margin: 0px;
 }
@@ -8,12 +8,8 @@ html, body {
     background: radial-gradient(#aeaeb0, #09542c);
     font-family: 'Abel', sans-serif;
     color: white;
-    text-shadow:
-       /*3px 3px 0 #000,*/
-     -1px -1px 0 #000,
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
+    text-shadow: /*3px 3px 0 #000,*/
+    -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     width: 100%;
     padding: 0px;
     margin: 0px;
@@ -23,33 +19,44 @@ html, body {
     position: fixed;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
     align-items: center;
     width: 100%;
     height: 45px;
     background-color: #09542c;
+    justify-content: flex-end;
     padding: 0px;
     margin: 0px auto;
 }
 
-#about, #projects, #contact {
+#about,
+#projects,
+#contact {
     padding: 7px;
 }
 
-#minilogo {
+#bar {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    padding: 0px;
+    margin: 0px auto;
 
-    width:20px;
+}
+#minilogo {
+    width: 20px;
     padding-left: 7px;
 }
 
 #logo {
-    display: flex;
     width: 140px;
     padding-top: 30px;
     margin: 0px auto;
     margin-top: 50px;
-
 }
+
 .header {
     display: flex;
     justify-content: center;
@@ -62,55 +69,49 @@ h1 {
     font-size: 60px;
 }
 
-h2 {
+h2, h3 {
     display: flex;
     justify-content: center;
 }
 
 p {
-    display:flex;
+    display: flex;
     justify-content: center;
-    margin:0 auto;
+    margin: 0 auto;
     padding: 10px 10px 55px 10px;
     width: 75%;
     text-align: justify;
-
 }
 
 #middle {
     margin: 0 auto;
     padding-left: 2%;
-
 }
 
-.project  {
+.project {
     padding: 10px;
     width: 95%;
 }
 
-
 .icons {
     display: flex;
     justify-content: center;
-    flex-direction:row;
+    flex-direction: row;
     font-size: 40px;
     padding-bottom: 40px;
     margin: 0 auto;
 }
 
-
-
-#icon1, #icon2, #icon3 {
+#icon1,
+#icon2,
+#icon3 {
     width: 30px;
-    padding:5px;
-
+    padding: 5px;
 }
-#icon1:hover, #icon2:hover, #icon3:hover {
+
+#icon1:hover,
+#icon2:hover,
+#icon3:hover {
     width: 35px;
     padding: 3px;
-
 }
-
-
-
-
