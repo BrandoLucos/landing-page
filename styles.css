@@ -83,6 +83,10 @@ p {
     text-align: justify;
 }
 
+#photo {
+    width: 150px;
+}
+
 #middle {
     margin: 0 auto;
     padding-left: 2%;
