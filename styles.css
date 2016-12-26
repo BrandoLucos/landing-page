@@ -34,6 +34,12 @@ body {
     padding: 7px;
 }
 
+#about: link,
+#projects: link,
+#contact: link {
+    color: inherit;
+}
+
 #bar {
     display: flex;
     align-items: flex-start;
@@ -84,7 +90,14 @@ p {
 }
 
 #photo {
-    width: 150px;
+    width: 160px;
+    height: 200px;
+}
+
+#bio {
+    display: flex;
+    flex-direction: row;
+    margin: 3%;
 }
 
 #middle {
@@ -97,7 +110,7 @@ p {
     width: 95%;
 }
 
-.icons {
+#icons {
     display: flex;
     justify-content: center;
     flex-direction: row;

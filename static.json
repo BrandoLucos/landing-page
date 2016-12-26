@@ -1,1 +1,9 @@
-static.json
+{
+  "root": "dist/"
+}
+{
+  "encoding": "UTF-8"
+}
+{
+  "clean_urls": true
+}
